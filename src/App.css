@@ -16,8 +16,10 @@
         .chatbox-message{
             overflow:scroll;
             scrollbar-width: none;
+            flex:1;
         }
         .app{
+            
             max-width: 800px;
             height:100vh;
             margin:auto;
@@ -25,6 +27,9 @@
             flex-direction: column;
             justify-content: space-between;
         }
+
+         
+
         body{
             margin:0px;
             padding:0px;
@@ -65,6 +70,34 @@
            width:20px;
         } */
 
+
+        .welcome-heading{
+
+            display: flex;
+            font-size: 25px;
+            font-weight: 500;
+             background-color:#DBEAFE;
+             color:#111827;
+            font-family: sans-serif;
+            padding:10px 10px;
+            justify-content: center;
+            border-radius: 10px;
+            animation:slideDown 0.6s ease;
+            
+        }
+
+
+        @keyframes slideDown{
+        from{
+            opacity:0;
+            transform:translateY(-15px);
+        }
+
+        to{
+            opacity:1;
+            transform:translateY(0);
+        }
+}
 
          @media screen and (max-width:830px){
             .app{

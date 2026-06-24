@@ -14,7 +14,8 @@
         }
              .chatmessage-text{
             max-width: 250px;
-            background-color: rgb(224, 223, 223);
+           background-color:#F3F4F6;
+            color:#1F2937;
             padding:12px 13px;
             border-radius: 6px;
             display: flex;

@@ -27,6 +27,7 @@ function App() {
   function useAutoScroll(dependencies) {}
   return (
     <div className="app">
+      <div className="welcome-heading">Welcome To Chatbot</div>
       <div className="chatbox-message" ref={scrollToLast}>
         {chatmessage.map((chatmessage) => (
           <ChatMessages
