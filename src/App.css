@@ -1,0 +1,66 @@
+ /* .input-text-box{
+            padding:10px 12px;
+            border-radius: 10px;
+            flex-grow: 1;
+        }
+        .input-text-button
+        {
+            padding:9px 15px;
+            border-radius: 8px;
+            background-color: rgb(37, 143, 37);
+            color:white;
+            border:none;
+            margin-left: 10px;
+            cursor: pointer;
+        } */
+        .chatbox-message{
+            overflow:scroll;
+            scrollbar-width: none;
+        }
+        .app{
+            max-width: 800px;
+            height:100vh;
+            margin:auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        body{
+            margin:0px;
+            padding:0px;
+            font-family:sans-serif;
+        }
+        /* .input-text-div
+        {
+            display: flex;
+            margin-bottom: 100px;
+            margin-top: 20px;
+        }
+        .chatmessage-div-user{
+            display: flex;
+            justify-content: end;
+            align-items: start;
+            column-gap: 10px;
+            margin-top: 15px;
+        }
+        .chatmessage-div-robot{
+             display: flex;
+            justify-content: start;
+            align-items: start;
+            column-gap: 10px;
+            margin-top: 15px;
+        }
+        .chatmessage-text{
+            max-width: 250px;
+            background-color: rgb(221, 219, 219);
+            padding:10px 10px 10px 10px;
+            border-radius: 6px;
+            display: flex;
+        }
+        .chatmessage-image{
+            width:40px;
+            display: flex;
+        }
+        .spinner-img{
+           width:20px;
+        } */
