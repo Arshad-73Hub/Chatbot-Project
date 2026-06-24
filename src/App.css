@@ -64,3 +64,15 @@
         .spinner-img{
            width:20px;
         } */
+
+
+         @media screen and (max-width:830px){
+            .app{
+                margin:10px 15px 0px 15px;
+            }
+        }
+           @media screen and (max-width:600px){
+            .app{
+                margin:10px 15px 0px 15px;
+            }
+        }
