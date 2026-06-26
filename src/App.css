@@ -13,6 +13,10 @@
             margin-left: 10px;
             cursor: pointer;
         } */
+         *{
+            margin:0;
+            padding:0;
+         }
         .chatbox-message{
             overflow:scroll;
             scrollbar-width: none;
